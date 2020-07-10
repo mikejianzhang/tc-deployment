@@ -1,0 +1,4 @@
+dependencies:
+- name: hello
+  version: 0.1.0
+  repository: https://mikejianzhang.github.io/charts
