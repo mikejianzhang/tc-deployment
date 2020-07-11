@@ -1,7 +1,7 @@
 hello:
   image:
     repository: docker-registry.local/hello
-    tag: 8.0.9
+    tag: 8.0.1
     pullPolicy: IfNotPresent
 
   ingress:
