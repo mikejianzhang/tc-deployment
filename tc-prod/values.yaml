@@ -4,8 +4,8 @@ hello:
     tag: 1.0.1
     pullPolicy: IfNotPresent
 
-    persistence:
-      enabled: false
+  persistence:
+    enabled: false
 
   ingress:
     enabled: true
