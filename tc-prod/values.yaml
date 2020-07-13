@@ -1,8 +1,11 @@
 hello:
   image:
-    repository: docker-registry.local/hello
-    tag: 8.0.9
+    repository: registry.cn-shanghai.aliyuncs.com/miketest/go-hello
+    tag: 1.0.1
     pullPolicy: IfNotPresent
+
+    persistence:
+      enabled: false
 
   ingress:
     enabled: true
